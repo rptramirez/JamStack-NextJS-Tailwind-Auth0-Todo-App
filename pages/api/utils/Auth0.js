@@ -5,8 +5,10 @@ export default initAuth0({
   clientId: 'bTGVaOoedJG3Uwz3zFoHzn465IOQWevt',
   clientSecret:
     'IxKYnHoUZtQKMpO00-wHebVwzgQgcJinKawdmfDu7vZNXOyxlWL8vRm4kVhPP3Af',
-  redirectUri: 'http://localhost:3000/api/callback',
-  postLogoutRedirectUri: 'http://localhost:3000/',
+  redirectUri:
+    'https://jam-stack-next-js-tailwind-auth0-todo-app.vercel.app/api/callback',
+  postLogoutRedirectUri:
+    'https://jam-stack-next-js-tailwind-auth0-todo-app.vercel.app',
   scope: 'openid profile',
   session: {
     // The secret used to encrypt the cookie.
